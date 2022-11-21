@@ -1,0 +1,13 @@
+name = "my-project"
+type = "typescript"
+account-id = "e07b0cab6ff3e05912eda82259d3dc86"
+workers_dev = true
+
+[env.production]
+workers_dev = false
+main = "src/index.ts"
+routes = [
+    { pattern = "techvarad.com/geo", zone_id = "0d24e14a77327aa4b17d3150c2311bd7" }
+]
+compatibility_date = "2022-11-20"
+

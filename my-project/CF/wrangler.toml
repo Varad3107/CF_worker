@@ -1,0 +1,6 @@
+name = "my-project"
+main = "src/index.ts"
+type = "typescript"
+compatibility_date = "2022-11-20"
+workers_dev = true
+account_id = "e07b0cab6ff3e05912eda82259d3dc86"
